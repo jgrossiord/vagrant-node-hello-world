@@ -10,6 +10,8 @@ sudo apt-get install -y nodejs
 
 sudo npm install forever -g
 
+mkdir -p /vagrant/logs/app/
+
 rm -f /vagrant/logs/app/*.log
 rm -f /vagrant/logs/app/urls.txt
 
